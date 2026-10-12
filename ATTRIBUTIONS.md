@@ -45,28 +45,53 @@ assumes otherwise later.
 
 ---
 
-## Anthropic skills (Apache 2.0)
+## Published third-party skills
 
-33 skills ship with Claude Code and carry `license:` in their frontmatter with
-a `LICENSE.txt` beside them. Among them: `skill-creator`, `pdf`, `docx`,
-`xlsx`, `pptx`, `canvas-design`, `theme-factory`, `mcp-builder`,
-`web-artifacts-builder`, `internal-comms`, `algorithmic-art`.
+Redistributed here under their own terms, with the licence recorded. Each
+keeps whatever `LICENSE` file and frontmatter it came with.
 
-Apache 2.0 allows redistribution with the licence and notice retained.
+### Apache 2.0 (12)
+
+`algorithmic-art`, `brand-guidelines`, `canvas-design`, `frontend-design`, `impeccable-impeccable`, `internal-comms`, `mcp-builder`, `skill-creator`, `slack-gif-creator`, `theme-factory`, `web-artifacts-builder`, `webapp-testing`
+
+Mostly Anthropic skills that ship with Claude Code. Apache 2.0 permits
+redistribution provided the licence and notices are retained, which they are.
+
+### MIT (20)
+
+`agent-md-refactor`, `building-native-ui`, `database-schema-designer`, `dependency-updater`, `design-system-starter`, `expo-api-routes`, `expo-cicd-workflows`, `expo-deployment`, `expo-dev-client`, `expo-tailwind-setup`, `frontend-slides`, `native-data-fetching`, `react-native-best-practices`, `upgrading-expo`, `use-dom`, `vercel-composition-patterns`, `vercel-react-best-practices`, `vercel-react-native-skills`, `voiceprint`, `youtube-clipper`
+
+Largely the Vercel and Expo skill packs. MIT permits redistribution provided
+the copyright notice travels with the work. These declare MIT in frontmatter
+rather than carrying a LICENSE file, so this entry is that notice.
 
 ---
 
-## Third-party packs
+## Not published
 
-| Pack | Count | Origin |
-|---|---|---|
-| `gstack` | 64 | Garry Tan / YC |
-| `impeccable-*` | 18 | third-party design pack |
-| `baoyu-*` | 13 | Baoyu |
-| `minimalist-entrepreneur` | 9 | Sahil Lavingia |
+### Anthropic proprietary (4)
 
-Licences not declared in the files as held. Confirm upstream terms before
-redistributing any of these.
+`docx`, `pdf`, `pptx`, `xlsx`
+
+These carry Anthropic's proprietary licence, which forbids extracting,
+copying, distributing or retaining them outside Anthropic's services, and
+forbids derivative works. There is no non-commercial exception; the
+restrictions do not depend on whether money changes hands.
+
+Nothing is lost by leaving them out. They ship with Claude Code, so anyone
+who installs it already has them.
+
+### Third-party packs with no declared licence (30)
+
+`baoyu-article-illustrator`, `baoyu-comic`, `baoyu-compress-image`, `baoyu-cover-image`, `baoyu-danger-gemini-web`, `baoyu-danger-x-to-markdown`, `baoyu-image-gen`, `baoyu-infographic`, `baoyu-post-to-wechat`, `baoyu-post-to-x`, `baoyu-slide-deck`, `baoyu-url-to-markdown`, `baoyu-xhs-images`, `impeccable-adapt`, `impeccable-animate`, `impeccable-audit`, `impeccable-bolder`, `impeccable-clarify`, `impeccable-colorize`, `impeccable-critique`, `impeccable-delight`, `impeccable-distill`, `impeccable-harden`, `impeccable-layout`, `impeccable-optimize`, `impeccable-overdrive`, `impeccable-polish`, `impeccable-quieter`, `impeccable-shape`, `impeccable-typeset`
+
+Not refused on principle, simply unknown. Confirm terms upstream and they can
+be published.
+
+### Business asset
+
+`intelligence-briefing-writing` encodes the DSI Advisory house voice. Held
+back as a business asset rather than for any licence reason.
 
 ---
 

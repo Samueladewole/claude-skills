@@ -1,11 +1,11 @@
 # Claude Skills
 
-348 skills for Claude Code. A skill is a folder holding a `SKILL.md`: a
+380 skills for Claude Code. A skill is a folder holding a `SKILL.md`: a
 description that says when it applies, and instructions for what to do when it
 does. Claude loads one on its own when your work matches the description. You
 never type a command.
 
-Written by Samuel Adewole over several years of real project work. MIT
+Most written by Samuel Adewole over several years of real project work. MIT
 licensed, see `LICENSE`. A few are derived from other people's work and are
 credited in `ATTRIBUTIONS.md`.
 
@@ -48,7 +48,7 @@ skill without being told to.
 
 ## Install only some of them
 
-348 skills is a lot, and most will not apply to your stack. To start with a
+380 skills is a lot, and most will not apply to your stack. To start with a
 handful:
 
 ```bash
@@ -96,10 +96,14 @@ vague description means the skill either never fires or fires constantly.
 
 ## What is not in here
 
-Some skills on my machine are not in this repo, because they are not mine to
-publish: Anthropic's bundled skills, a few third-party packs, and one that
-encodes a client's house voice. `ATTRIBUTIONS.md` lists them. Nothing is
-missing that you cannot get from its own source.
+35 skills on my machine are not in this repo. Four carry Anthropic's
+proprietary licence, which forbids redistribution; they ship with Claude Code,
+so you already have them. Thirty come from third-party packs that declare no
+licence at all, so their terms are simply unknown. One encodes a client's
+house voice. `ATTRIBUTIONS.md` has the detail.
+
+Everything else third-party here is published under its own licence, MIT or
+Apache 2.0, with the notice retained.
 
 ## Licence
 
