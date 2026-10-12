@@ -1,0 +1,86 @@
+# Machine noise
+.DS_Store
+*.log
+__pycache__/
+*.pyc
+node_modules/
+.skill-lock.json
+
+# ── Not mine to publish ─────────────────────────────────────────────
+# These stay on disk and keep working locally. Git simply does not carry
+# them. ATTRIBUTIONS.md records who owns what.
+
+# Proprietary. Never publish these.
+docx/
+pdf/
+pptx/
+xlsx/
+
+# Someone else's work, with their own licence in the file.
+agent-md-refactor/
+algorithmic-art/
+brand-guidelines/
+building-native-ui/
+canvas-design/
+database-schema-designer/
+dependency-updater/
+design-system-starter/
+expo-api-routes/
+expo-cicd-workflows/
+expo-deployment/
+expo-dev-client/
+expo-tailwind-setup/
+frontend-design/
+frontend-slides/
+impeccable-impeccable/
+internal-comms/
+mcp-builder/
+native-data-fetching/
+react-native-best-practices/
+skill-creator/
+slack-gif-creator/
+theme-factory/
+upgrading-expo/
+use-dom/
+vercel-composition-patterns/
+vercel-react-best-practices/
+vercel-react-native-skills/
+voiceprint/
+web-artifacts-builder/
+webapp-testing/
+youtube-clipper/
+
+# Third-party packs, licence not declared. Confirm terms before sharing.
+baoyu-article-illustrator/
+baoyu-comic/
+baoyu-compress-image/
+baoyu-cover-image/
+baoyu-danger-gemini-web/
+baoyu-danger-x-to-markdown/
+baoyu-image-gen/
+baoyu-infographic/
+baoyu-post-to-wechat/
+baoyu-post-to-x/
+baoyu-slide-deck/
+baoyu-url-to-markdown/
+baoyu-xhs-images/
+impeccable-adapt/
+impeccable-animate/
+impeccable-audit/
+impeccable-bolder/
+impeccable-clarify/
+impeccable-colorize/
+impeccable-critique/
+impeccable-delight/
+impeccable-distill/
+impeccable-harden/
+impeccable-layout/
+impeccable-optimize/
+impeccable-overdrive/
+impeccable-polish/
+impeccable-quieter/
+impeccable-shape/
+impeccable-typeset/
+
+# Business asset, not a general-purpose skill.
+intelligence-briefing-writing/
