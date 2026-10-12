@@ -1,6 +1,6 @@
 # Claude Skills
 
-380 skills for Claude Code. A skill is a folder holding a `SKILL.md`: a
+381 skills for Claude Code. A skill is a folder holding a `SKILL.md`: a
 description that says when it applies, and instructions for what to do when it
 does. Claude loads one on its own when your work matches the description. You
 never type a command.
@@ -48,7 +48,7 @@ skill without being told to.
 
 ## Install only some of them
 
-380 skills is a lot, and most will not apply to your stack. To start with a
+381 skills is a lot, and most will not apply to your stack. To start with a
 handful:
 
 ```bash
@@ -96,7 +96,7 @@ vague description means the skill either never fires or fires constantly.
 
 ## What is not in here
 
-35 skills on my machine are not in this repo. Four carry Anthropic's
+36 skills on my machine are not in this repo. Four carry Anthropic's
 proprietary licence, which forbids redistribution; they ship with Claude Code,
 so you already have them. Thirty come from third-party packs that declare no
 licence at all, so their terms are simply unknown. One encodes a client's

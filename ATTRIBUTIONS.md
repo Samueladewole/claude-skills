@@ -57,9 +57,9 @@ keeps whatever `LICENSE` file and frontmatter it came with.
 Mostly Anthropic skills that ship with Claude Code. Apache 2.0 permits
 redistribution provided the licence and notices are retained, which they are.
 
-### MIT (20)
+### MIT (19)
 
-`agent-md-refactor`, `building-native-ui`, `database-schema-designer`, `dependency-updater`, `design-system-starter`, `expo-api-routes`, `expo-cicd-workflows`, `expo-deployment`, `expo-dev-client`, `expo-tailwind-setup`, `frontend-slides`, `native-data-fetching`, `react-native-best-practices`, `upgrading-expo`, `use-dom`, `vercel-composition-patterns`, `vercel-react-best-practices`, `vercel-react-native-skills`, `voiceprint`, `youtube-clipper`
+`agent-md-refactor`, `building-native-ui`, `database-schema-designer`, `dependency-updater`, `design-system-starter`, `expo-api-routes`, `expo-cicd-workflows`, `expo-deployment`, `expo-dev-client`, `expo-tailwind-setup`, `frontend-slides`, `native-data-fetching`, `react-native-best-practices`, `upgrading-expo`, `use-dom`, `vercel-composition-patterns`, `vercel-react-best-practices`, `vercel-react-native-skills`, `voiceprint`
 
 Largely the Vercel and Expo skill packs. MIT permits redistribution provided
 the copyright notice travels with the work. These declare MIT in frontmatter
@@ -87,6 +87,20 @@ who installs it already has them.
 
 Not refused on principle, simply unknown. Confirm terms upstream and they can
 be published.
+
+### Maintained upstream, install separately
+
+`youtube-clipper` — https://github.com/op7418/Youtube-clipper-skill (MIT)
+
+It ships as its own git repository. Nesting that inside this one made git
+record a gitlink with no `.gitmodules`, so clones received an empty directory.
+Rather than vendor a copy that would drift, get it from the source:
+
+```bash
+git clone https://github.com/op7418/Youtube-clipper-skill.git \
+  ~/.agents/skills/youtube-clipper
+~/.agents/skills/install.sh --only youtube-clipper
+```
 
 ### Business asset
 

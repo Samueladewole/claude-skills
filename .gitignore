@@ -55,3 +55,8 @@ impeccable-typeset/
 
 # Client house voice, not a general-purpose skill.
 intelligence-briefing-writing/
+
+# Carries its own git repo, so git stored it as an unresolvable gitlink and
+# anyone cloning got an empty folder. It is third-party and maintained
+# upstream, so ATTRIBUTIONS.md points there instead of re-hosting it.
+youtube-clipper/
